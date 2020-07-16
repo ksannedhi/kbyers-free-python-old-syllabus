@@ -1,3 +1,11 @@
+'''The first exercise is the following:
+
+I. Prompt a user to input an IP address.
+
+Re-using some of the code from class3, exercise4–determine if the IP address is valid.
+
+Continue prompting the user to re-input an IP address until a valid IP address is input.'''
+
 while True:
     ip_addr = input("Provide an IP address: ")
     octets = ip_addr.split(".")
